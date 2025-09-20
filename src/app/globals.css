@@ -139,8 +139,8 @@ span {
   }
 
   .release_cover {
-    width: 11rem;
-    height: 11rem;
+    width: 8rem;
+    height: 8rem;
     margin: auto;
   }
 
@@ -154,12 +154,21 @@ span {
     display: none;
   }
 
+  .timer_counter {
+    gap: 0.5rem;
+  }
+
+  .timer {
+    gap: 1rem;
+  }
+
   h1,
   span {
     font-size: 2.2rem;
   }
 
   .releaseDate {
+    text-align: center;
     margin-top: 1.5rem;
   }
 }

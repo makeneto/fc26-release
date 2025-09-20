@@ -4,7 +4,6 @@ import Counter from "@/components/Counter"
 import Profile from "@/components/Profile"
 import useCounter from "@/hooks/useCounter"
 import Link from "next/link"
-import { useEffect, useState } from "react"
 
 export default function Home() {
     const { finished } = useCounter()
