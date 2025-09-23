@@ -10,7 +10,7 @@ export default function useCounter() {
     const [finished, setFinished] = useState(false)
 
     const calculateTimeLeft = () => {
-        const targetDate = new Date("2025-09-26T00:00:00").getTime()
+        const targetDate = new Date("2025-09-26T00:04:00").getTime()
         const now = new Date().getTime()
         const difference = targetDate - now
 
